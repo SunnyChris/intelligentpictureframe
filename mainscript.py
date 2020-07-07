@@ -133,7 +133,7 @@ while(cap.isOpened()):
                 firstFrame = gray
             else:
                 text = "Occupied"
-                subprocess.call("cscript ENTER.vbs")
+                subprocess.call("cscript helperscript.vbs")
                 firstFrame = gray
 
         # draw the text and timestamp on the frame
